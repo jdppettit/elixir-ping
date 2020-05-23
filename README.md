@@ -9,7 +9,7 @@ Add to your application dependencies to install:
 ```elixir
 def deps do
   [
-    {:ping, "~> 0.1.0"}
+    {:ping, git: "https://github.com/silverp1/elixir-ping"}
   ]
 end
 ```
