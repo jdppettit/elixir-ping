@@ -13,6 +13,8 @@ defmodule Ping do
         {:error, :icmp_error}
       {:ok, false} ->
         {:error, :invalid_host}
+      {:error, {:error, :eperm}} ->
+        {:error, :permission_error}
     end
   end
 
