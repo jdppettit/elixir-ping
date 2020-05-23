@@ -1,0 +1,5 @@
+%{
+  "gen_icmp": {:git, "https://github.com/msantos/gen_icmp", "837fc46b25b36f6c61d353494bbfa3eafce18942", []},
+  "pkt": {:git, "git://github.com/msantos/pkt.git", "db7dec36a84484125bfeb4e148ec551cbc2e8997", [ref: "db7dec36a84484125bfeb4e148ec551cbc2e8997"]},
+  "procket": {:git, "git://github.com/msantos/procket.git", "7679c1a1205c3ea5b6d2a7ad6f8daf6c691b3301", [ref: "7679c1a1205c3ea5b6d2a7ad6f8daf6c691b3301"]},
+}

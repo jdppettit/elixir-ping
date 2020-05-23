@@ -7,22 +7,37 @@ defmodule Ping.MixProject do
       version: "0.1.0",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      description: description(),
+      package: package()
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
   def application do
     [
       extra_applications: [:logger]
     ]
   end
 
-  # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:gen_icmp, git: "https://github.com/msantos/gen_icmp"}
+    ]
+  end
+
+  defp description do
+    """
+      Simple library that wraps `gen_icmp` Erlang library.
+
+      Allows basic ping.
+    """
+  end
+
+  defp package do
+    [
+      name: "ping",
+      links: %{"GitHub": "https://github.com/silverp1/elixir-ping"},
+      licenses: ["MIT"]
     ]
   end
 end
