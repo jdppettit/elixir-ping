@@ -15,6 +15,10 @@ defmodule Ping do
         {:error, :invalid_host}
       {:error, {:error, :eperm}} ->
         {:error, :permission_error}
+      {:error, :unreach_host, _, _, _, _, _} ->
+        {:error, :unreachable_host}
+      _ ->
+        {:error, :unexpected_error}
     end
   end
 
