@@ -15,7 +15,7 @@ defmodule Ping.MixProject do
 
   def application do
     [
-      extra_applications: [:logger, :gen_icmp]
+      extra_applications: [:logger, :gen_icmp, :procket]
     ]
   end
 
