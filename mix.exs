@@ -15,14 +15,13 @@ defmodule Ping.MixProject do
 
   def application do
     [
-      extra_applications: [:logger, :gen_icmp, :procket]
+      extra_applications: [:logger]
     ]
   end
 
   defp deps do
     [
       {:gen_icmp, git: "https://github.com/msantos/gen_icmp"}
-      {:procket, git, "https://github.com/msantos/procket.git"}
     ]
   end
 
