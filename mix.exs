@@ -21,7 +21,7 @@ defmodule Ping.MixProject do
 
   defp deps do
     [
-      {:gen_icmp, git: "https://github.com/msantos/gen_icmp"}
+      {:gen_icmp, git: "https://github.com/ryochin/gen_icmp"}
     ]
   end
 

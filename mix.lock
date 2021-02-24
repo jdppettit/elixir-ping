@@ -1,5 +1,5 @@
 %{
-  "gen_icmp": {:git, "https://github.com/msantos/gen_icmp", "837fc46b25b36f6c61d353494bbfa3eafce18942", []},
-  "pkt": {:git, "git://github.com/msantos/pkt.git", "db7dec36a84484125bfeb4e148ec551cbc2e8997", [ref: "db7dec36a84484125bfeb4e148ec551cbc2e8997"]},
-  "procket": {:git, "git://github.com/msantos/procket.git", "7679c1a1205c3ea5b6d2a7ad6f8daf6c691b3301", [ref: "7679c1a1205c3ea5b6d2a7ad6f8daf6c691b3301"]},
+  "gen_icmp": {:git, "https://github.com/ryochin/gen_icmp", "5236a147ce837bc0ea6a997f97f2f92aec3a6114", []},
+  "pkt": {:git, "git://github.com/msantos/pkt.git", "8c826b25098b06db8c24805fb1da2d65c14abe06", [ref: "8c826b25098b06db8c24805fb1da2d65c14abe06"]},
+  "procket": {:git, "git://github.com/msantos/procket.git", "f531b951b884972b6eaa619e66113280d79c7830", [ref: "f531b951b884972b6eaa619e66113280d79c7830"]},
 }
